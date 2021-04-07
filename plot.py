@@ -25,6 +25,7 @@ if __name__ == '__main__':
     plot_json('pennsylvania2020.json', 'Pennsylvania')
     plot_json('ohio2020.json', 'Ohio')
     plot_json('oklahoma2020.json', 'Oklahoma')
+    plot_json('north-carolina-2020.json', 'North Carolina')
     ax.legend()
     plt.xlabel('Age')
     plt.ylabel('Normalized Turnout (votes / voters / statewide turnout)')
